@@ -19,3 +19,11 @@ char removeQueue(CharQueue* queue);
 int getSize(CharQueue* queue);
 void printQueue(CharQueue* queue);
 void freeQueue(CharQueue* queue);
+
+void insertFrnt(CharQueue* queue, char c);
+void insertRear(CharQueue* queue, char c);
+char deleteFrnt(CharQueue* queue);
+char deleteRear(CharQueue* queue);
+
+void WorkWithQueue();
+void WorkWithDek();
